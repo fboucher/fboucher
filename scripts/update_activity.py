@@ -74,25 +74,31 @@ def demo(since, now):
 
 
 # ---------- README table ----------
+def ago(day, now):
+    d = (now.date() - dt.date.fromisoformat(day)).days
+    return "today" if d <= 0 else "yesterday" if d == 1 else f"{d} days ago"
+
+
 def table(events, now, private):
     cutoff = (now - dt.timedelta(days=TABLE_DAYS)).date().isoformat()
     per = defaultdict(lambda: {"commits": 0, "prs": 0, "issues": 0})
-    meta = {}
+    meta, last = {}, {}
     for day, kind, repo, n in events:
         if day >= cutoff:
-            per[repo["nameWithOwner"]][kind] += n
-            meta[repo["nameWithOwner"]] = repo
+            name = repo["nameWithOwner"]
+            per[name][kind] += n
+            meta[name] = repo
+            last[name] = max(last.get(name, ""), day)
     tot = {k: sum(p[k] for p in per.values()) for k in ("commits", "prs", "issues")}
     rows = sorted(per.items(), reverse=True,
                   key=lambda kv: kv[1]["commits"] + 3 * kv[1]["prs"] + 2 * kv[1]["issues"])
     out = [f"_Last {TABLE_DAYS} days: **{tot['commits']}** commits, **{tot['prs']}** PRs, "
            f"**{tot['issues']}** issues (+{private} private contributions)_", "",
            "![Weekly activity: commits, PRs and issues](assets/activity.svg)", "",
-           "| Project | Commits | PRs | Issues | Language |", "|---|---:|---:|---:|---|"]
+           "| Project | Commits | PRs | Issues | Last active |", "|---|---:|---:|---:|---|"]
     for name, p in rows[:TOP]:
         r = meta[name]
-        lang = (r.get("primaryLanguage") or {}).get("name", "")
-        out.append(f"| [{name}]({r['url']}) | {p['commits']} | {p['prs']} | {p['issues']} | {lang} |")
+        out.append(f"| [{name}]({r['url']}) | {p['commits']} | {p['prs']} | {p['issues']} | {ago(last[name], now)} |")
     out.append(f"\n<sub>Updated {now:%Y-%m-%d} by a GitHub Action</sub>")
     return "\n".join(out)
 
@@ -118,13 +124,13 @@ def nice_max(v):
 
 
 def svg(labels, b):
-    W, H = 495, 230
+    W, H = 840, 240
     L, R, T, B = 42, 38, 58, 32
     pw, ph, n = W - L - R, H - T - B, len(b)
     cmax = nice_max(max(x["commits"] for x in b) or 1)
     lmax = nice_max(max(max(x["prs"], x["issues"]) for x in b) or 1)
     slot = pw / n
-    bw = slot * 0.55
+    bw = slot * 0.45
     xc = lambda i: L + slot * i + slot / 2
     yl = lambda v: T + ph - ph * v / lmax
     font = "'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif"
@@ -160,8 +166,7 @@ def svg(labels, b):
         h = ph * x["commits"] / cmax
         p.append(f'<rect class="bar" x="{xc(i) - bw / 2:.1f}" y="{T + ph - h:.1f}" width="{bw:.1f}" height="{h:.1f}" rx="2">'
                  f'<title>Week of {labels[i]}: {x["commits"]} commits</title></rect>')
-        if i % 2 == 1 or i == n - 1:
-            p.append(f'<text class="a" x="{xc(i):.1f}" y="{T + ph + 16}" text-anchor="middle">{labels[i]}</text>')
+        p.append(f'<text class="a" x="{xc(i):.1f}" y="{T + ph + 16}" text-anchor="middle">{labels[i]}</text>')
     for kind, cls, dot, word in (("prs", "pr", "dpr", "PRs"), ("issues", "is", "dis", "issues")):
         pts = " ".join(f"{xc(i):.1f},{yl(x[kind]):.1f}" for i, x in enumerate(b))
         p.append(f'<polyline class="{cls}" points="{pts}"/>')
