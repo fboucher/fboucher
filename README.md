@@ -8,12 +8,10 @@ Looking for a nice and fun project to be involve? Look this project I'm looking 
 [![Readme Card](https://fb-github-readme-stats-iota.vercel.app/api/pin/?username=fboucher&repo=azurlshortener&theme=react)](https://github.com/fboucher/AzUrlShortener)
 [![Readme Card](https://fb-github-readme-stats-iota.vercel.app/api/pin/?username=fboucher&repo=2d6-dungeon-app&theme=react)](https://github.com/FBoucher/2d6-dungeon-app)
 
-### Reach-out!
-- 💥**new** site: [fboucheros.com](https://fboucheros.com)💥
-- **Socials**: [@fboucheros.bsky.social](https://bsky.app/profile/fboucheros.bsky.social) - [linkedin.com/in/fboucheros](https://www.linkedin.com/in/fboucheros) - [@fboucheros](https://twitter.com/fboucheros)
-- **YouTube**:  [youtube.com/fboucheros](https://www.youtube.com/c/fboucheros) / (français) [youtube.com/cloudenfrancais](https://www.youtube.com/cloudenfrancais)
-- **Twitch**:   [twitch.tv/fboucheros](https://www.twitch.tv/fboucheros)
-- **Discord**:  [Cloud5mins](https://discord.gg/pVcAYw)
-- **Behind My Cloud**:  [behindmycloud.com](https://behindmycloud.com)
-- **Blog**:  [frankysnotes.com](http://www.frankysnotes.com/) / (français) [cloudenfrancais.com](https://www.cloudenfrancais.com/)
----
+### 🔨 What I'm working on
+
+All my current work, in detail, is in my [Open Source Workbench](https://c5m.ca/oss).
+
+<!--ACTIVITY:START-->
+_This section is refreshed daily by a GitHub Action._
+<!--ACTIVITY:END-->
