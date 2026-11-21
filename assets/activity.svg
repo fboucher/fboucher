@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="230" viewBox="0 0 495 230" role="img" aria-labelledby="t">
+<title id="t">Weekly commits, pull requests and issues over the last 12 weeks</title>
+<style>
+  svg{--bg:#fffefe;--fg:#434d58;--muted:#6e7781;--grid:#e4e2e2;--title:#0a7ea4;--c:#61dafb;--pr:#d63384;--is:#e08a00}
+  @media (prefers-color-scheme:dark){svg{--bg:#20232a;--fg:#e6edf3;--muted:#8b949e;--grid:#30363d;--title:#61dafb;--pr:#f07ab8;--is:#f9b233}}
+  .bg{fill:var(--bg);stroke:var(--grid)}
+  .t{font:600 18px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:var(--title)}
+  .a{font:400 10px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:var(--muted)}
+  .lg{font:400 12px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:var(--fg)}
+  .g{stroke:var(--grid);stroke-width:1}
+  .bar{fill:var(--c);opacity:.9}
+  .pr{stroke:var(--pr);fill:none;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+  .is{stroke:var(--is);fill:none;stroke-width:2.5;stroke-dasharray:6 4;stroke-linejoin:round;stroke-linecap:round}
+  .dpr{fill:var(--pr)} .dis{fill:var(--is)}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="494" height="229" rx="4.5"/>
+<text class="t" x="25" y="34">Weekly activity</text>
+<rect class="bar" x="263" y="23" width="12" height="12" rx="2"/><text class="lg" x="280" y="33">Commits</text>
+<line class="pr" x1="347" y1="29" x2="365" y2="29"/><text class="lg" x="370" y="33">PRs</text>
+<line class="is" x1="405" y1="29" x2="423" y2="29"/><text class="lg" x="428" y="33">Issues</text>
+<line class="g" x1="42" y1="58.0" x2="457" y2="58.0"/>
+<text class="a" x="36" y="61.0" text-anchor="end">80</text>
+<text class="a" x="463" y="61.0">40</text>
+<line class="g" x1="42" y1="93.0" x2="457" y2="93.0"/>
+<text class="a" x="36" y="96.0" text-anchor="end">60</text>
+<text class="a" x="463" y="96.0">30</text>
+<line class="g" x1="42" y1="128.0" x2="457" y2="128.0"/>
+<text class="a" x="36" y="131.0" text-anchor="end">40</text>
+<text class="a" x="463" y="131.0">20</text>
+<line class="g" x1="42" y1="163.0" x2="457" y2="163.0"/>
+<text class="a" x="36" y="166.0" text-anchor="end">20</text>
+<text class="a" x="463" y="166.0">10</text>
+<line class="g" x1="42" y1="198.0" x2="457" y2="198.0"/>
+<text class="a" x="36" y="201.0" text-anchor="end">0</text>
+<text class="a" x="463" y="201.0">0</text>
+<text class="a" x="8" y="50">commits</text>
+<text class="a" x="487" y="50" text-anchor="end">PRs / issues</text>
+<rect class="bar" x="49.8" y="189.2" width="19.0" height="8.8" rx="2"><title>Week of Aug 31: 5 commits</title></rect>
+<rect class="bar" x="84.4" y="198.0" width="19.0" height="0.0" rx="2"><title>Week of Sep 07: 0 commits</title></rect>
+<text class="a" x="93.9" y="214" text-anchor="middle">Sep 07</text>
+<rect class="bar" x="118.9" y="187.5" width="19.0" height="10.5" rx="2"><title>Week of Sep 14: 6 commits</title></rect>
+<rect class="bar" x="153.5" y="138.5" width="19.0" height="59.5" rx="2"><title>Week of Sep 21: 34 commits</title></rect>
+<text class="a" x="163.0" y="214" text-anchor="middle">Sep 21</text>
+<rect class="bar" x="188.1" y="182.2" width="19.0" height="15.8" rx="2"><title>Week of Sep 28: 9 commits</title></rect>
+<rect class="bar" x="222.7" y="126.2" width="19.0" height="71.8" rx="2"><title>Week of Oct 05: 41 commits</title></rect>
+<text class="a" x="232.2" y="214" text-anchor="middle">Oct 05</text>
+<rect class="bar" x="257.3" y="126.2" width="19.0" height="71.8" rx="2"><title>Week of Oct 12: 41 commits</title></rect>
+<rect class="bar" x="291.9" y="184.0" width="19.0" height="14.0" rx="2"><title>Week of Oct 19: 8 commits</title></rect>
+<text class="a" x="301.4" y="214" text-anchor="middle">Oct 19</text>
+<rect class="bar" x="326.4" y="180.5" width="19.0" height="17.5" rx="2"><title>Week of Oct 26: 10 commits</title></rect>
+<rect class="bar" x="361.0" y="171.8" width="19.0" height="26.2" rx="2"><title>Week of Nov 02: 15 commits</title></rect>
+<text class="a" x="370.5" y="214" text-anchor="middle">Nov 02</text>
+<rect class="bar" x="395.6" y="63.2" width="19.0" height="134.8" rx="2"><title>Week of Nov 09: 77 commits</title></rect>
+<rect class="bar" x="430.2" y="196.2" width="19.0" height="1.8" rx="2"><title>Week of Nov 16: 1 commits</title></rect>
+<text class="a" x="439.7" y="214" text-anchor="middle">Nov 16</text>
+<polyline class="pr" points="59.3,198.0 93.9,198.0 128.5,198.0 163.0,187.5 197.6,180.5 232.2,124.5 266.8,138.5 301.4,191.0 336.0,149.0 370.5,170.0 405.1,96.5 439.7,194.5"/>
+<circle class="dpr" cx="59.3" cy="198.0" r="3"><title>Week of Aug 31: 0 PRs</title></circle>
+<circle class="dpr" cx="93.9" cy="198.0" r="3"><title>Week of Sep 07: 0 PRs</title></circle>
+<circle class="dpr" cx="128.5" cy="198.0" r="3"><title>Week of Sep 14: 0 PRs</title></circle>
+<circle class="dpr" cx="163.0" cy="187.5" r="3"><title>Week of Sep 21: 3 PRs</title></circle>
+<circle class="dpr" cx="197.6" cy="180.5" r="3"><title>Week of Sep 28: 5 PRs</title></circle>
+<circle class="dpr" cx="232.2" cy="124.5" r="3"><title>Week of Oct 05: 21 PRs</title></circle>
+<circle class="dpr" cx="266.8" cy="138.5" r="3"><title>Week of Oct 12: 17 PRs</title></circle>
+<circle class="dpr" cx="301.4" cy="191.0" r="3"><title>Week of Oct 19: 2 PRs</title></circle>
+<circle class="dpr" cx="336.0" cy="149.0" r="3"><title>Week of Oct 26: 14 PRs</title></circle>
+<circle class="dpr" cx="370.5" cy="170.0" r="3"><title>Week of Nov 02: 8 PRs</title></circle>
+<circle class="dpr" cx="405.1" cy="96.5" r="3"><title>Week of Nov 09: 29 PRs</title></circle>
+<circle class="dpr" cx="439.7" cy="194.5" r="3"><title>Week of Nov 16: 1 PRs</title></circle>
+<polyline class="is" points="59.3,198.0 93.9,198.0 128.5,198.0 163.0,198.0 197.6,198.0 232.2,117.5 266.8,142.0 301.4,177.0 336.0,166.5 370.5,138.5 405.1,96.5 439.7,198.0"/>
+<circle class="dis" cx="59.3" cy="198.0" r="3"><title>Week of Aug 31: 0 issues</title></circle>
+<circle class="dis" cx="93.9" cy="198.0" r="3"><title>Week of Sep 07: 0 issues</title></circle>
+<circle class="dis" cx="128.5" cy="198.0" r="3"><title>Week of Sep 14: 0 issues</title></circle>
+<circle class="dis" cx="163.0" cy="198.0" r="3"><title>Week of Sep 21: 0 issues</title></circle>
+<circle class="dis" cx="197.6" cy="198.0" r="3"><title>Week of Sep 28: 0 issues</title></circle>
+<circle class="dis" cx="232.2" cy="117.5" r="3"><title>Week of Oct 05: 23 issues</title></circle>
+<circle class="dis" cx="266.8" cy="142.0" r="3"><title>Week of Oct 12: 16 issues</title></circle>
+<circle class="dis" cx="301.4" cy="177.0" r="3"><title>Week of Oct 19: 6 issues</title></circle>
+<circle class="dis" cx="336.0" cy="166.5" r="3"><title>Week of Oct 26: 9 issues</title></circle>
+<circle class="dis" cx="370.5" cy="138.5" r="3"><title>Week of Nov 02: 17 issues</title></circle>
+<circle class="dis" cx="405.1" cy="96.5" r="3"><title>Week of Nov 09: 29 issues</title></circle>
+<circle class="dis" cx="439.7" cy="198.0" r="3"><title>Week of Nov 16: 0 issues</title></circle>
+</svg>
