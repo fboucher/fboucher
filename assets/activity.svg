@@ -57,7 +57,7 @@
 <text class="a" x="643.7" y="224" text-anchor="middle">Nov 02</text>
 <rect class="bar" x="692.8" y="63.6" width="28.5" height="144.4" rx="2"><title>Week of Nov 09: 77 commits</title></rect>
 <text class="a" x="707.0" y="224" text-anchor="middle">Nov 09</text>
-<rect class="bar" x="756.1" y="206.1" width="28.5" height="1.9" rx="2"><title>Week of Nov 16: 1 commits</title></rect>
+<rect class="bar" x="756.1" y="202.4" width="28.5" height="5.6" rx="2"><title>Week of Nov 16: 3 commits</title></rect>
 <text class="a" x="770.3" y="224" text-anchor="middle">Nov 16</text>
 <polyline class="pr" points="73.7,208.0 137.0,208.0 200.3,208.0 263.7,196.8 327.0,189.2 390.3,129.2 453.7,144.2 517.0,200.5 580.3,155.5 643.7,178.0 707.0,99.2 770.3,204.2"/>
 <circle class="dpr" cx="73.7" cy="208.0" r="3"><title>Week of Aug 31: 0 PRs</title></circle>
