@@ -13,13 +13,13 @@ _Last 30 days: **106** commits, **54** PRs, **60** issues (+10 private contribut
 
 | Project | Commits | PRs | Issues | Last active |
 |---|---:|---:|---:|---|
-| [fboucher/n8n-nodes-bdp](https://github.com/fboucher/n8n-nodes-bdp) | 65 | 21 | 34 | 4 days ago |
-| [fboucher/NoteBookmark](https://github.com/fboucher/NoteBookmark) | 9 | 18 | 17 | 7 days ago |
-| [fboucher/se-ai-devkit](https://github.com/fboucher/se-ai-devkit) | 14 | 5 | 0 | 12 days ago |
-| [fboucher/behind-my-cloud](https://github.com/fboucher/behind-my-cloud) | 5 | 4 | 3 | 21 days ago |
-| [fboucher/2d6-dungeon-app](https://github.com/fboucher/2d6-dungeon-app) | 9 | 1 | 5 | 7 days ago |
+| [fboucher/n8n-nodes-bdp](https://github.com/fboucher/n8n-nodes-bdp) | 65 | 21 | 34 | 5 days ago |
+| [fboucher/NoteBookmark](https://github.com/fboucher/NoteBookmark) | 9 | 18 | 17 | 8 days ago |
+| [fboucher/se-ai-devkit](https://github.com/fboucher/se-ai-devkit) | 14 | 5 | 0 | 13 days ago |
+| [fboucher/behind-my-cloud](https://github.com/fboucher/behind-my-cloud) | 5 | 4 | 3 | 22 days ago |
+| [fboucher/2d6-dungeon-app](https://github.com/fboucher/2d6-dungeon-app) | 9 | 1 | 5 | 8 days ago |
 
-<sub>Updated 2026-11-22 by a GitHub Action</sub>
+<sub>Updated 2026-11-23 by a GitHub Action</sub>
 <!--ACTIVITY:END-->
 
 Looking for a nice and fun project to be involve? Look this project I'm looking for help!
