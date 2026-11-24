@@ -59,10 +59,10 @@
 <text class="a" x="707.0" y="224" text-anchor="middle">Nov 16</text>
 <rect class="bar" x="756.1" y="208.0" width="28.5" height="0.0" rx="2"><title>Week of Nov 23: 0 commits</title></rect>
 <text class="a" x="770.3" y="224" text-anchor="middle">Nov 23</text>
-<polyline class="pr" points="73.7,208.0 137.0,208.0 200.3,196.8 263.7,189.2 327.0,129.2 390.3,144.2 453.7,200.5 517.0,155.5 580.3,178.0 643.7,99.2 707.0,204.2 770.3,208.0"/>
+<polyline class="pr" points="73.7,208.0 137.0,208.0 200.3,200.5 263.7,189.2 327.0,129.2 390.3,144.2 453.7,200.5 517.0,155.5 580.3,178.0 643.7,99.2 707.0,204.2 770.3,204.2"/>
 <circle class="dpr" cx="73.7" cy="208.0" r="3"><title>Week of Sep 07: 0 PRs</title></circle>
 <circle class="dpr" cx="137.0" cy="208.0" r="3"><title>Week of Sep 14: 0 PRs</title></circle>
-<circle class="dpr" cx="200.3" cy="196.8" r="3"><title>Week of Sep 21: 3 PRs</title></circle>
+<circle class="dpr" cx="200.3" cy="200.5" r="3"><title>Week of Sep 21: 2 PRs</title></circle>
 <circle class="dpr" cx="263.7" cy="189.2" r="3"><title>Week of Sep 28: 5 PRs</title></circle>
 <circle class="dpr" cx="327.0" cy="129.2" r="3"><title>Week of Oct 05: 21 PRs</title></circle>
 <circle class="dpr" cx="390.3" cy="144.2" r="3"><title>Week of Oct 12: 17 PRs</title></circle>
@@ -71,18 +71,18 @@
 <circle class="dpr" cx="580.3" cy="178.0" r="3"><title>Week of Nov 02: 8 PRs</title></circle>
 <circle class="dpr" cx="643.7" cy="99.2" r="3"><title>Week of Nov 09: 29 PRs</title></circle>
 <circle class="dpr" cx="707.0" cy="204.2" r="3"><title>Week of Nov 16: 1 PRs</title></circle>
-<circle class="dpr" cx="770.3" cy="208.0" r="3"><title>Week of Nov 23: 0 PRs</title></circle>
-<polyline class="is" points="73.7,208.0 137.0,208.0 200.3,208.0 263.7,208.0 327.0,121.8 390.3,148.0 453.7,185.5 517.0,174.2 580.3,144.2 643.7,99.2 707.0,208.0 770.3,208.0"/>
+<circle class="dpr" cx="770.3" cy="204.2" r="3"><title>Week of Nov 23: 1 PRs</title></circle>
+<polyline class="is" points="73.7,208.0 137.0,208.0 200.3,208.0 263.7,208.0 327.0,136.8 390.3,148.0 453.7,185.5 517.0,174.2 580.3,144.2 643.7,99.2 707.0,208.0 770.3,193.0"/>
 <circle class="dis" cx="73.7" cy="208.0" r="3"><title>Week of Sep 07: 0 issues</title></circle>
 <circle class="dis" cx="137.0" cy="208.0" r="3"><title>Week of Sep 14: 0 issues</title></circle>
 <circle class="dis" cx="200.3" cy="208.0" r="3"><title>Week of Sep 21: 0 issues</title></circle>
 <circle class="dis" cx="263.7" cy="208.0" r="3"><title>Week of Sep 28: 0 issues</title></circle>
-<circle class="dis" cx="327.0" cy="121.8" r="3"><title>Week of Oct 05: 23 issues</title></circle>
+<circle class="dis" cx="327.0" cy="136.8" r="3"><title>Week of Oct 05: 19 issues</title></circle>
 <circle class="dis" cx="390.3" cy="148.0" r="3"><title>Week of Oct 12: 16 issues</title></circle>
 <circle class="dis" cx="453.7" cy="185.5" r="3"><title>Week of Oct 19: 6 issues</title></circle>
 <circle class="dis" cx="517.0" cy="174.2" r="3"><title>Week of Oct 26: 9 issues</title></circle>
 <circle class="dis" cx="580.3" cy="144.2" r="3"><title>Week of Nov 02: 17 issues</title></circle>
 <circle class="dis" cx="643.7" cy="99.2" r="3"><title>Week of Nov 09: 29 issues</title></circle>
 <circle class="dis" cx="707.0" cy="208.0" r="3"><title>Week of Nov 16: 0 issues</title></circle>
-<circle class="dis" cx="770.3" cy="208.0" r="3"><title>Week of Nov 23: 0 issues</title></circle>
+<circle class="dis" cx="770.3" cy="193.0" r="3"><title>Week of Nov 23: 4 issues</title></circle>
 </svg>
