@@ -7,19 +7,19 @@
 All my current work, in detail, is in my [Open Source Workbench](https://c5m.ca/oss).
 
 <!--ACTIVITY:START-->
-_Last 30 days: **108** commits, **54** PRs, **80** issues (+10 private contributions)_
+_Last 30 days: **104** commits, **54** PRs, **82** issues (+10 private contributions)_
 
 ![Weekly activity: commits, PRs and issues](assets/activity.svg)
 
 | Project | Commits | PRs | Issues | Last active |
 |---|---:|---:|---:|---|
-| [fboucher/n8n-nodes-bdp](https://github.com/fboucher/n8n-nodes-bdp) | 65 | 21 | 34 | 8 days ago |
-| [fboucher/NoteBookmark](https://github.com/fboucher/NoteBookmark) | 7 | 16 | 18 | yesterday |
-| [fboucher/bdp-mcp-community](https://github.com/fboucher/bdp-mcp-community) | 2 | 1 | 19 | 2 days ago |
-| [fboucher/se-ai-devkit](https://github.com/fboucher/se-ai-devkit) | 14 | 6 | 1 | 2 days ago |
-| [fboucher/2d6-dungeon-app](https://github.com/fboucher/2d6-dungeon-app) | 9 | 1 | 5 | 11 days ago |
+| [fboucher/n8n-nodes-bdp](https://github.com/fboucher/n8n-nodes-bdp) | 65 | 24 | 36 | yesterday |
+| [fboucher/NoteBookmark](https://github.com/fboucher/NoteBookmark) | 3 | 11 | 18 | 2 days ago |
+| [fboucher/bdp-mcp-community](https://github.com/fboucher/bdp-mcp-community) | 2 | 1 | 19 | 3 days ago |
+| [fboucher/se-ai-devkit](https://github.com/fboucher/se-ai-devkit) | 14 | 8 | 1 | yesterday |
+| [fboucher/2d6-dungeon-app](https://github.com/fboucher/2d6-dungeon-app) | 9 | 1 | 5 | 12 days ago |
 
-<sub>Updated 2026-11-26 by a GitHub Action</sub>
+<sub>Updated 2026-11-27 by a GitHub Action</sub>
 <!--ACTIVITY:END-->
 
 Looking for a nice and fun project to be involve? Look this project I'm looking for help!
